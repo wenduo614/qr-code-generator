@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { QRCode } from "react-qrcode-logo";
 
-export default function QRGenerator() {
+export default function App() {
   const [text, setText] = useState("Hello World");
   const [size, setSize] = useState(200);
   const [lang, setLang] = useState("en");
